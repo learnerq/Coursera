@@ -1,9 +1,9 @@
 
 makeCacheMatrix <- function(x = matrix()) {
-  m<-NULL
+  m <- NULL
   set<-function(y){
   x<<-y
-  m<<-NULL
+ m<<-NULL
 }
 get<-function() x
 setmatrix<-function(solve) m<<- solve
